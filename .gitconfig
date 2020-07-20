@@ -1,0 +1,18 @@
+[core]
+	excludesfile = /Users/yunseok/.gitignore_global
+    editor = /usr/local/bin/vim
+[user]
+	name = <name>
+	email = <email>
+[commit]
+	template = /Users/yunseok/.stCommitMsg
+[alias]
+    cleanbranch = "!git branch -d $(git branch --merged | grep -v '\\<master\\>')"
+    ch = "!git checkout $(git branch | fzf) 2> /dev/null"
+    l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+    b0 = "!git branch | awk '/^\\*/{print $2}'"
+    pushThis = "!git push origin `git b0`"
+    alias = "!git config --list | egrep '^alias.+' | sed -e 's/^alias\\.//' | sed -e 's/^[^=]*=/\\'$'\\033[31m&\\033[(B\\033[m/'"
+    blist = "!git branch | egrep -v '^\\*' | fzf"
+    a = "!git add $(git status -s | fzf -m | awk '{print $2}')"
+
