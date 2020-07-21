@@ -1,0 +1,38 @@
+{
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 80,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.quickSuggestions": true
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shellArgs.osx": [],
+  "go.autocompleteUnimportedPackages": true,
+  "go.buildOnSave": "off",
+  "go.coverOnTestPackage": false,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "window.zoomLevel": 0,
+  "wiki.targetRootFile": "/Users/yunseok/Documents/blog/_pages/Wiki.md",
+  "wiki.targetPath": "/Users/yunseok/Documents/blog/_wikis",
+  "editor.renderWhitespace": "boundary",
+  "workbench.colorCustomizations": {
+    "editorWhitespace.foreground": "#777777"
+  },
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.mac": "/Users/yunseok/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vs-kubernetes.draft-path.mac": "/Users/yunseok/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.helm-path.mac": "/Users/yunseok/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  },
+}
